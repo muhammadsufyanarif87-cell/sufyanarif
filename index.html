@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylish Website</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <div class="logo">MyWebsite</div>
+    <ul>
+        <li onclick="scrollToSection('home')">Home</li>
+        <li onclick="scrollToSection('about')">About</li>
+        <li onclick="scrollToSection('contact')">Contact</li>
+    </ul>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="home">
+    <h1>Welcome Sufyan</h1>
+    <p>HTML, CSS & JavaScript Stylish Website</p>
+    <button class="btn" onclick="showMessage()">Click Me</button>
+</section>
+
+<!-- About Section -->
+<section class="about" id="about">
+    <h2>About</h2>
+    <p>
+        Ye ek modern website hai jo separate HTML, CSS aur JavaScript files se bani hai.
+        Mobile aur desktop dono me smooth chalti hai.
+    </p>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <h2>Contact</h2>
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <textarea placeholder="Your Message"></textarea>
+    <button class="btn" onclick="sendForm()">Send</button>
+</section>
+
+<footer>
+    <p>© 2026 Stylish Website | Made by Sufyan</p>
+</footer>
+
+<!-- JavaScript Link -->
+<script src="scrip.js"></script>
+
+</body>
+</html>
